@@ -15,13 +15,13 @@ is the test file. The file contains the test on a tuned PID controller.
 ### Run Instructions
 Clone the repository as,
 ```
-git clone https://github.com/Pruthvi-Sanghavi/pid_controller.git
+git clone git@github.com:pruthvisanghavi/controllers.git
 ```
 
 Code can be compiled and executed as follows,\
 First enter the source folder
 ```
-cd pid_controller/src
+cd ~/controllers/pidController/src
 g++ -std=c++11 pid_controller.cpp pid_controller_test.cpp -o pid_controller
 ./pid_controller
 ```
